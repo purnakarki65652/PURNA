@@ -6,7 +6,7 @@ def SwitchExample(argument):
     }
     return switcher.get(argument, "nothing")
 if __name__ == "__main__":
-    argument = 0
+    argument = 2
     print(SwitchExample(argument))
 
 

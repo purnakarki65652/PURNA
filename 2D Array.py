@@ -13,7 +13,7 @@ print(array)
 #print array first row
 print(array[0])
 
-#print second row 2 colu
+#print second row 2 colum
 print(array[1][1])
 
 #second row two column Row and column print
