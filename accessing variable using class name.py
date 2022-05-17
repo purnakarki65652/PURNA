@@ -1,0 +1,12 @@
+from dog1 import Dog
+Rodger = Dog("Pug","brown")
+Buzo = Dog("Bulldog", "black")
+print('Rodger details:')
+print('Rodger is a', Rodger.animal)
+print('Breed: ', Rodger.breed)
+print('color:',Rodger.color)
+print('\nBuzo details:')
+print('Buzo is a',Buzo.animal)
+print('color: ', Buzo.color)
+print("\nAccessing class variable using class name")
+print(Dog.animal)
