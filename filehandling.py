@@ -1,4 +1,6 @@
 # A file name "test", will be opened with the reading mode.
+import os
+
 file = open('test.txt' , 'r')
 # This will print every line one by one in the file
 for each in file:
@@ -32,4 +34,13 @@ with open("test.txt", "r") as file:
     for line in data:
         word = line.split()
         print(word)
+
+# getting the current directory  info
+print(os.getcwd())
+
+#chnage the current directory
+#os.chdir('D:\pythonProject1\Purna')
+
+
+
 
