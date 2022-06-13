@@ -29,8 +29,7 @@ new_item.add_command(label='paste')
 new_item.add_separator()
 new_item.add_command(label='Save',command=save) #save commadn
 new_item.add_command(label='Save as')
-
+new_item.add_command(label='Exit',command=exit)
 menu.add_cascade(label='File',menu=new_item)
 window.config(menu=menu)
-
 window.mainloop()
