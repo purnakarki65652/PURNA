@@ -1,13 +1,7 @@
 import sqlite3
 cnt = sqlite3.connect('sql.db')
-cnt.execute('''CREATE TABLE users(
-id INTEGER,
-username TEXT,
-password TEXT,
-email TEXT,
-phone TEXT,
-usertype TEXT,
-status INTEGER,
-createddate TEXT,
-updateddate TEXT
+cnt.execute('''INSERT INTO users (id, username, password, email, phone,usertype,status,createddate) VALUES(
+'1','Purna','karki','purnakarki65652@gmail.com','9848165652','admin','1','2022-06-15'
 );''')
+cur = cnt.cursor()
+cnt.commit()
