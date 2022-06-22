@@ -122,7 +122,12 @@ def Registrationform():
     Label(reg_screen, text="",textvariable=message).place(x=95,y=304)
     #Login button
     Button(reg_screen, text="Register", width=10, height=1, bg="orange",command=register).place(x=105,y=330)
+
+
+
     reg_screen.mainloop()
+
+
 
 #calling function Registrationform
 Registrationform()
